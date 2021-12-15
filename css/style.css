@@ -15,12 +15,14 @@ body {
   transform: scale(1);
   margin-top: 30rem;
   margin-left: 15rem;
+  z-index: -1;
 }
 #top {
   position: absolute;
   transform: scale(0.5);
   margin-top: -20rem;
   margin-left: -20rem;
+  z-index: -1;
 }
 button {
   background-color: rgb(228, 255, 222);
@@ -32,6 +34,7 @@ button {
 p {
   margin-top: 5rem;
   font-size: 24px;
+  max-width: 80%;
 }
 button:hover {
   background-color: rgb(209, 246, 200);
