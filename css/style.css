@@ -1,3 +1,43 @@
-h1 {
-    color: blue;
+html {
+  overflow: hidden;
+  height: 100%;
+}
+body {
+  overflow: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#bottom {
+  position: absolute;
+  transform: scale(1);
+  margin-top: 30rem;
+  margin-left: 15rem;
+}
+#top {
+  position: absolute;
+  transform: scale(0.5);
+  margin-top: -20rem;
+  margin-left: -20rem;
+}
+button {
+  background-color: rgb(228, 255, 222);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 0px rgb(212, 212, 212);
+}
+p {
+  margin-top: 5rem;
+  font-size: 24px;
+}
+button:hover {
+  background-color: rgb(209, 246, 200);
+}
+button:active {
+  background-color: rgb(228, 255, 222);
+  box-shadow: none;
+  transform: translateY(2px);
 }
